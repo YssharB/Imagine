@@ -71,12 +71,11 @@ export async function POST(req: Request) {
       lastName: last_name ?? "",
       photo: image_url,
     };
+    const clerk = await clerkClient();
 
     const newUser = await createUser(user);
-
-    // Set public metadata
     if (newUser) {
-      await clerkClient.users.updateUserMetadata(id, {
+      await clerk.users.updateUserMetadata(id, {
         publicMetadata: {
           userId: newUser._id,
         },
