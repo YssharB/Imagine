@@ -47,9 +47,9 @@ const MobileNav = () => {
                     const isActive = link.route === pathname();
                     return (
                       <li
-                        className={
-                          '${isActive && "gradient-text"}p-18 flex whitespace-nowrap text-dark-700'
-                        }
+                        className={`${
+                          isActive && "gradient-text"
+                        }p-18 flex whitespace-nowrap text-dark-700`}
                         key={link.route}
                       >
                         <Link
