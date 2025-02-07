@@ -24,12 +24,13 @@ Imagine est une application en cours de développement permettant de générer d
     Shadcn
     TailwindCSS
 
+# ⚠️ Avertissement : Cette version est en cours de développement.
 
-
-📌 Démarrage
+## 📌 Démarrage
 
 Tout d'abord, lancez le serveur de développement :
 
+````sh
 npm run dev
 # ou
 yarn dev
@@ -37,26 +38,32 @@ yarn dev
 pnpm dev
 # ou
 bun dev
+````
 
-Ouvrez http://localhost:3000 avec votre navigateur pour voir le résultat.
+[![Copier le code](https://img.shields.io/badge/Copier%20le%20code-blue?style=flat-square)](data:text/plain;charset=utf-8,npm%20run%20dev%0A%23%20ou%0Ayarn%20dev%0A%23%20ou%0Apnpm%20dev%0A%23%20ou%0Abun%20dev)
 
-Vous pouvez commencer à modifier la page en éditant app/page.tsx. La page se mettra automatiquement à jour lors de l'édition du fichier.
+Ouvrez [http://localhost:3000](http://localhost:3000) avec votre navigateur pour voir le résultat.
 
-Ce projet utilise next/font pour optimiser et charger automatiquement Geist, une nouvelle famille de polices pour Vercel.
+Vous pouvez commencer à modifier la page en éditant `app/page.tsx`. La page se mettra automatiquement à jour lors de l'édition du fichier.
 
-📖 En savoir plus
+Ce projet utilise `next/font` pour optimiser et charger automatiquement Geist, une nouvelle famille de polices pour Vercel.
+
+## 📖 En savoir plus
 
 Pour en savoir plus sur Next.js, consultez les ressources suivantes :
 
-Documentation Next.js - Découvrez les fonctionnalités et l'API de Next.js.
+- [Documentation Next.js](https://nextjs.org/docs) - Découvrez les fonctionnalités et l'API de Next.js.
+- [Apprendre Next.js](https://nextjs.org/learn) - Un tutoriel interactif sur Next.js.
 
-Apprendre Next.js - Un tutoriel interactif sur Next.js.
+Vous pouvez également consulter le [dépôt GitHub de Next.js](https://github.com/vercel/next.js) - vos retours et contributions sont les bienvenus !
 
-Vous pouvez également consulter le dépôt GitHub de Next.js - vos retours et contributions sont les bienvenus !
-
-🚀 Déploiement sur Vercel
+## 🚀 Déploiement sur Vercel
 
 Le moyen le plus simple de déployer votre application Next.js est d'utiliser la plateforme Vercel, créée par les développeurs de Next.js.
 
-Consultez notre documentation sur le déploiement Next.js pour plus de détails.
+Consultez notre [documentation sur le déploiement Next.js](https://vercel.com/docs) pour plus de détails.
+
+## 🙌 Remerciements
+
+Un immense merci à [JSM / Adrian Hajdin](https://github.com/adrianhajdin) pour son incroyable travail et ses ressources précieuses. Son enseignement et son contenu inspirant ont joué un rôle clé dans la réalisation de ce projet !
 
