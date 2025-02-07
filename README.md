@@ -1,4 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+![Leonardo_Phoenix_10_A_sleek_and_modern_web_banner_for_Imagine_1](https://github.com/user-attachments/assets/d74792e3-86b7-4b5e-866c-82bfe629b062)
+
+
+📌 **Aperçu**
+
+Imagine est une application en cours de développement permettant de générer des images grâce à l'intelligence artificielle. Elle s'appuie sur plusieurs bibliothèques et outils tels que Clerk/Next.js, Cloudinary, React, Stripe, MongoDB, TailwindCSS, TypeScript, et bien d'autres, afin d'assurer un fonctionnement fluide.
+
+
+⚠️ **Avertissement**
+
+⚠️ **Problème actuel :** Je travaille actuellement sur un souci de connectivité entre Clerk et MongoDB.
+
+
+
+💻 **Technologies utilisées**
+
+    Next.js
+    TypeScript
+    MongoDB
+    Clerk
+    Cloudinary
+    Stripe
+    Shadcn
+    TailwindCSS
+
+
 
 ## Getting Started
 
